@@ -8,7 +8,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Import secret keys
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
-ALLOWED_HOSTS = ['https://customer-base-api-2019.herokuapp.com']
+ALLOWED_HOSTS = ['customer-base-api-2019.herokuapp.com']
 
 
 # Application definition
